@@ -1,5 +1,6 @@
 import Foundation
 
+@objc
 class SadStory: NSObject {
     private var legacyThing: LegacyObjCThing
     init(legacyThing: LegacyObjCThing) {
