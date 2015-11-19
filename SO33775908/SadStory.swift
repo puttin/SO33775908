@@ -15,6 +15,6 @@ extension SadStory {
     class func generateSadStory() -> SadStory {
         return SadStory(legacyThing: LegacyObjCThing())
         //try to switch to this line, you will get error
-        //return SadStory(legacyThing: LegacyObjCThing(coolThing: CoolThing())
+        //return SadStory(legacyThing: LegacyObjCThing(coolThing: CoolThing()))
     }
 }
