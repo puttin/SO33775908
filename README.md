@@ -12,3 +12,6 @@ If you `Open quickly…` the `LegacyObjCThing.h` you will see the automatically 
 which is wrong.
 
 Environment: Xcode 7.1.1
+
+## Workarounds
+1. [No special ObjC name](https://github.com/puttin/SO33775908/tree/Workaround1)
