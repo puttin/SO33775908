@@ -1,8 +1,8 @@
 @import Foundation;
 
-@class CoolThingNameForObjC;
+@class CoolThing;
 @interface LegacyObjCThing : NSObject
 
-- (instancetype)initWithCoolThing:(CoolThingNameForObjC *)coolThing;
+- (instancetype)initWithCoolThing:(CoolThing *)coolThing;
 
 @end

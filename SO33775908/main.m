@@ -5,11 +5,11 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        LegacyObjCThing *legacyToy = [[LegacyObjCThing alloc] initWithCoolThing:[CoolThingNameForObjC new]];
+        LegacyObjCThing *legacyToy = [[LegacyObjCThing alloc] initWithCoolThing:[CoolThing new]];
         NSLog(@"%@", legacyToy.description);
         
-        SadStory *sadToy = [SadStory generateSadStory];
-        NSLog(@"%@", sadToy.description);
+        SadStory *goodToy = [SadStory generateSadStory];
+        NSLog(@"%@", goodToy.description);
     }
     return 0;
 }

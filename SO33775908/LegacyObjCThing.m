@@ -3,13 +3,13 @@
 
 @interface LegacyObjCThing ()
 
-@property (strong, nonatomic) CoolThingNameForObjC *coolThing;
+@property (strong, nonatomic) CoolThing *coolThing;
 
 @end
 
 @implementation LegacyObjCThing
 
-- (instancetype)initWithCoolThing:(CoolThingNameForObjC *)coolThing
+- (instancetype)initWithCoolThing:(CoolThing *)coolThing
 {
     self = [super init];
     if (self) {
